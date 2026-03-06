@@ -1,5 +1,5 @@
 {
-  "name": "ex02_mjs",
+  "name": "ex03_mjs",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "dotevn": "^0.0.1-security"
   }
 }
