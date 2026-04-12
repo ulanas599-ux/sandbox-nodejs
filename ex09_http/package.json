@@ -1,5 +1,5 @@
 {
-  "name": "ex08_env",
+  "name": "ex06_stdin_stdout_stderr",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
@@ -8,9 +8,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "debug": "nodemon index.js"
+    "debug": "nodemon index.js",
+    "debugDB": "nodemon --ignore db dataSourceDebug.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.1.14"
   }
 }
